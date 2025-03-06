@@ -1,0 +1,8 @@
+
+    .nav {
+        position: static;
+        top: 0;
+        width: 100%;
+        z-index: 1000; /* Asegura que la nav esté por encima de otros elementos */
+    }
+
