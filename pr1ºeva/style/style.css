@@ -1,8 +1,29 @@
 
-    .nav {
-        position: static;
-        top: 0;
-        width: 100%;
-        z-index: 1000; /* Asegura que la nav esté por encima de otros elementos */
+ 
+    form {
+        padding: 20px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        background-color: white;
     }
-
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    @media (min-width: 768px) {
+        .footer-icons {
+            justify-content: flex-end;
+            width: 100%; 
+        }
+        .sticky-nav {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+}
+body {
+padding-top: 206px; 
+}
+    }
